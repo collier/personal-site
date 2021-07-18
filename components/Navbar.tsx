@@ -23,17 +23,17 @@ export function Navbar() {
   return (
     <nav className="pb-8">
       <div className="flex items-center pt-10 pb-2 sm:pb-10">
-        <div className="flex-grow ">
+        <div className="flex-grow">
           <Link href="/">
             <a
-              className="text-3xl font-title"
+              className="text-3xl font-bold tracking-tighter"
               onClick={() => setMenuVisiblity(false)}
             >
               D.J. Collier
             </a>
           </Link>
         </div>
-        <ul className="hidden sm:flex flex-none gap-12 text-lg">
+        <ul className="hidden sm:flex flex-none space-x-12 text-lg">
           {links.map((link, i) => (
             <li key={i}>
               <Link href={link.href}>

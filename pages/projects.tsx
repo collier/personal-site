@@ -87,15 +87,15 @@ const ProjectItem = ({
   siteLink,
   githubLink,
 }: ProjectItemProps) => (
-  <li className="flex flex-col gap-4 pb-10">
-    <Text tag="h2" size="2xl" weight="semibold">
+  <li className="flex flex-col space-y-3 pb-10">
+    <Text tag="h2" size="2xl" weight="semibold" font="sans">
       {name}
     </Text>
     <Text>{children}</Text>
     <BadgeList items={techUsed} />
-    <div className="flex gap-5 text-sm">
-      {siteLink && <Anchor href={siteLink}>Visit Site 🡢</Anchor>}
-      <Anchor href={githubLink}>Visit Github Repo 🡢</Anchor>
+    <div className="space-x-3 font-serif">
+      {siteLink && <Anchor href={siteLink}>Visit Site →</Anchor>}
+      <Anchor href={githubLink}>Visit Github Repo →</Anchor>
     </div>
   </li>
 );

@@ -27,8 +27,8 @@ module.exports = {
     fontFamily: {
       sans:
         'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-      title:
-        '"DM Serif Text", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+      serif:
+        'Rosario, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
     },
   },
   variants: {

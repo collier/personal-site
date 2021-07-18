@@ -6,10 +6,7 @@ type Props = PropsWithChildren<{
 
 export function Anchor({ children, href }: Props) {
   return (
-    <a
-      href={href}
-      className="text-indigo-900 hover:text-indigo-700 hover:underline"
-    >
+    <a href={href} className="text-indigo-600 hover:underline">
       {children}
     </a>
   );

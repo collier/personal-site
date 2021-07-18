@@ -6,15 +6,17 @@ type Props = PropsWithChildren<{
   size?: 'xs' | 'sm' | 'base' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl';
   weight?: 'normal' | 'medium' | 'semibold' | 'bold';
   style?: 'normal' | 'muted';
+  font?: 'sans' | 'serif';
   lineHeight?: 'tight' | 'snug' | 'normal' | 'relaxed'; // https://tailwindcss.com/docs/line-height
 }>;
 
 export function Text({
   children,
   tag = 'p',
-  size = 'xl',
+  size = 'lg',
   weight = 'normal',
   style = 'normal',
+  font = 'serif',
   lineHeight = 'normal',
 }: Props) {
   const TextTag = tag;
@@ -34,6 +36,8 @@ export function Text({
     'font-medium': weight === 'medium',
     'font-semibold': weight === 'semibold',
     'font-bold': weight === 'bold',
+    'font-sans': font === 'sans',
+    'font-serif': font === 'serif',
     'text-gray-400': style === 'muted',
     'leading-tight': lineHeight === 'tight',
     'leading-snug': lineHeight === 'snug',
