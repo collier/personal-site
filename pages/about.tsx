@@ -24,7 +24,7 @@ export default function AboutPage({ workExperiences }: Props) {
       <Title>About Me</Title>
       <div className="space-y-5 mb-5">
         <Text font="serif">
-          I'm D.J. Collier, I live in the Washington, D.C. metro area and
+          I&apos;m D.J. Collier, I live in the Washington, D.C. metro area and
           currently work at Counterpoint Consulting as a Principal Consultant.
           Before joining Counterpoint, I co-founded a startup for ordering from
           restaurants called Foodio, based in Charlottesville, VA.
@@ -46,11 +46,12 @@ export default function AboutPage({ workExperiences }: Props) {
           src="/arthurs-seat-768.jpg"
           srcSet="/arthurs-seat-768.jpg 768w, /arthurs-seat-640.jpg 640w, /arthurs-seat-420.jpg 420w"
           sizes="(max-width: 420px) 420px, (max-width: 640px) 640px, 768px"
+          alt="DJ Collier standing on summit of Arthur's in Edinburgh, Scotland"
           className="mb-1"
         />
         <p className="text-gray-400 text-sm text-center font-serif">
-          Summit of Arthur's Seat in Edinburgh, Scotland while on a trip to the
-          United Kingdom
+          Summit of Arthur&apos;s Seat in Edinburgh, Scotland while on a trip to
+          the United Kingdom
         </p>
       </div>
       {/* See tailwind.config for specific column configuration */}

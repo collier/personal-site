@@ -2,7 +2,6 @@
 
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       gridTemplateColumns: {
@@ -30,9 +29,6 @@ module.exports = {
       serif:
         'Rosario, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };

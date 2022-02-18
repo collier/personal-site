@@ -23,7 +23,7 @@ export function Navbar() {
   return (
     <nav className="pb-8">
       <div className="flex items-center pt-10 pb-2 sm:pb-10">
-        <div className="flex-grow">
+        <div className="grow">
           <Link href="/">
             <a
               className="text-3xl font-bold tracking-tighter"

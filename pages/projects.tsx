@@ -48,7 +48,7 @@ export default function ProjectsPage() {
           A slideshow which displays statistics about an office or company. The
           StatBoard was designed to be displayed on a television in a common
           area in the office so that staff can see cool inforation at a glance.
-          It's useful for highlighting office events, competitions,
+          It&apos;s useful for highlighting office events, competitions,
           anniversaries, weather, even communiting information.
         </ProjectItem>
         <ProjectItem
